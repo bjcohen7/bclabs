@@ -52,8 +52,6 @@
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "New York",
-    "addressRegion": "NY",
     "addressCountry": "US"
   },
   "serviceType": [
@@ -116,6 +114,7 @@
   }
   .serif{font-family:"Fraunces", Georgia, serif;}
 
+  /* nav */
   nav{
     position:sticky; top:0; z-index:50;
     background:var(--paper); border-bottom:1px solid var(--line);
@@ -134,6 +133,7 @@
   }
   nav .cta:hover{background:var(--brick);}
 
+  /* hero */
   .hero{
     padding:96px 32px 80px;
     display:grid; grid-template-columns:1fr; gap:48px;
@@ -173,6 +173,7 @@
   }
   .btn-link:hover{color:var(--brick); border-color:var(--brick);}
 
+  /* credibility band */
   .band{
     background:var(--ink); color:var(--paper);
     padding:28px 32px;
@@ -195,6 +196,7 @@
     line-height:1.4;
   }
 
+  /* generic section */
   section{
     padding:120px 32px;
     max-width:1280px; margin:0 auto;
@@ -225,6 +227,7 @@
     max-width:36ch;
   }
 
+  /* method */
   .method{background:var(--paper-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
   .method-list{display:grid; gap:0;}
   .step{
@@ -259,6 +262,7 @@
   }
   .step .desc{color:var(--ink); line-height:1.6; font-size:17px;}
 
+  /* services */
   .services{display:grid; gap:0;}
   .svc{
     display:grid;
@@ -311,6 +315,7 @@
     border-radius:99px;
   }
 
+  /* best fit */
   section.fit{
     background:var(--ink); color:var(--paper);
     max-width:none;
@@ -344,6 +349,7 @@
   .fit-list li:before{content:"→"; position:absolute; left:0; color:#e8a886; font-weight:500;}
   .fit-list li strong{color:var(--paper); font-weight:500; background:rgba(232,168,134,.12); padding:0 4px;}
 
+  /* contact */
   .contact{background:var(--paper-2); border-top:1px solid var(--line);}
   .contact form{
     display:grid;
@@ -394,6 +400,7 @@
   .foot-aside a:hover{color:#e8a886;}
   .foot-bottom{display:flex; justify-content:space-between; padding-top:14px; font-size:11px; letter-spacing:.1em; text-transform:uppercase;}
 
+  /* Tablet & mobile */
   @media (max-width:880px){
     nav{padding:12px 18px;}
     nav .links{gap:14px;}
@@ -431,6 +438,7 @@
     .foot-bottom{flex-direction:column; gap:6px;}
     .foot-aside{font-size:12px; line-height:1.65;}
   }
+  /* Narrow phones */
   @media (max-width:480px){
     nav{padding:10px 16px;}
     nav .cta{padding:9px 12px; font-size:12px;}
@@ -659,7 +667,7 @@
     </div>
     <div class="foot-aside">+ BC Labs also operates an independent product studio building original software — mobile, web, web3, and AI. Out of scope on this site, but available on request for the right partners.</div>
     <div class="foot-bottom">
-      <span class="mono">© 2026 BC LABS · New York</span>
+      <span class="mono">© 2026 BC LABS</span>
       <span class="mono">An operator's practice.</span>
     </div>
   </div>
