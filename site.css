@@ -240,9 +240,9 @@ section{padding:112px 32px; max-width:1280px; margin:0 auto;}
   font-size:clamp(48px, 7vw, 104px);
   line-height:0.98;
   letter-spacing:-0.03em;
-  max-width:10ch;
+  max-width:14ch;
 }
-.justme h2 em{font-style:italic; color:var(--peach);}
+.justme h2 em{display:block; font-style:italic; color:var(--peach);}
 .justme p{
   margin-top:28px;
   font-size:clamp(18px, 1.6vw, 22px);
